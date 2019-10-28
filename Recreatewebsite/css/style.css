@@ -1,0 +1,185 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+ color: #000;
+ font-size: 12px;
+ line-height: 1.4;
+ font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	padding: 15px 0 20px 60px;
+}
+
+h2 {
+	color: white;
+	font-family:"Open Sans";
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+button {
+	color: #121212;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	width: 160px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #F9E42E;
+	background-color: #F9E42E;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+#benefits {
+	padding: 7px 0 60px 60px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #121212;
+	font-weight: 600;
+}
+
+p {
+	color: #606161;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+ul {
+	padding-top: 10px;
+	color: #606161;
+}
+
+#testimony {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 285px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight:300 ;
+	text-align: center;
+	margin: auto;
+	padding-top: 30px;
+	color: white;
+	opacity: 0.5;
+}
+
+#amanda {
+	font-weight: 600; 	
+	font-size: 18px;
+	text-align: center;
+	color:white ;
+	padding-bottom: 30px;
+
+}
+
+p2{
+	color: #F9E42E;
+	background: #F9E42E;
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 600px;
+	height: 56px;
+}
+
+#signup {
+	color: white;
+	font-weight: 800;
+	width: 180px;
+	height: 30px;
+	border-radius: 5px;
+	border-color: #033048;
+	background-color: #033048;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+
+p3{
+	color: #F9E42E;
+	font-weight: 800;
+	font-size: 24px;
+	text-align:center;
+	display: block;
+	padding-top: 35px;
+}
+
+
+img {
+	padding: 10px;
+	height: 15px;
+	margin: 0 auto;
+	position: relative;
+	left: 44%;
+}
+
+p4 {
+	color: white;
+	font-size: 9px;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+	position: absolute;
+	left: 50%;
+	top: -2%;
+	transform: translate(-50%, 0%);
+}
+
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+}
+
+section {
+	background: #f0efef;
+	width: 600px;
+	height: 260px;
+}
+#quotes{
+	background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(255, 0, 0);
+	background-size: cover;
+	height: 265px;
+	width: 600px;
+}
+
+
+footer {
+	background-color:rgb(80, 76, 76);
+	background-size: cover;
+	height: 178px;
+	width: 600px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
